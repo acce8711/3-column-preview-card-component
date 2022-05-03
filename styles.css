@@ -1,0 +1,85 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 30pt;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin: 25px 0;
+}
+
+p, a {
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;    
+}
+
+.container {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card1 {
+    width: 300px;
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+    width: 300px;
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+    width: 300px;
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+a {
+    padding: 15px 30px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.card1 a {
+    color: hsl(31, 77%, 52%);
+}
+
+.card2 a {
+    color: hsl(184, 100%, 22%);
+}
+
+.card3 a {
+    color: hsl(179, 100%, 13%);
+}
